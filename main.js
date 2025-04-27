@@ -1,5 +1,5 @@
 const interests = ["ゲーム","アニメ","プログラミング"];
-const specialities = ["寝ること","食べること","運動すること"];
+const specialties = ["寝ること","食べること","運動すること"];
 const greetings = ["よろしくね","お手柔らかに","押忍"];
 const button = document.querySelector('#button');
 button.addEventListener("click",function(){
@@ -8,7 +8,7 @@ button.addEventListener("click",function(){
     const index2 = Math.floor(Math.random() * specialties.length);
     const index3 = Math.floor(Math.random() * greetings.length);
     const interest = interests[index1];
-    const specialties = specialties[index2];
+    const specialty = specialties[index2];
     const greeting = greetings[index3]
     const message = `
     こんにちは、私の名前は${name}です。
