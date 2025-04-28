@@ -1,6 +1,7 @@
 body {
     /* ここに全体の装飾を書く */
     background-color: aliceblue;
+    text-align: center;
 }
 
 #face {
