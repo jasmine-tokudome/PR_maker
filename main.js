@@ -1,4 +1,5 @@
 const button = document.querySelector("#button");
 button.addEventListener("click", function(){
-    alert("こんにちは！")});
-
+    const output = document.querySelector("#output");
+    output.textContent = "こんにちは";
+});
