@@ -10,7 +10,11 @@ button.addEventListener("click", function(){
     const interest = interests[index1];
     const speciality = interests[index2];
     const greeting = interests[index3];
-    const message = `こんにちは、私の名前は${name}です。`
+    const message = `
+    こんにちは、私の名前は${name}です。
+    最近はまっているのは${interest}で、
+    特技は${speciality}です。
+    ${greeting}`;
     const output = document.querySelector("#output");
     output.textContent = message;
 });
