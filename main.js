@@ -8,8 +8,8 @@ button.addEventListener("click", function(){
     const index2 = Math.floor(Math.random() * specialities.length);
     const index3 = Math.floor(Math.random() * greetings.length);
     const interest = interests[index1];
-    const speciality = interests[index2];
-    const greeting = interests[index3];
+    const speciality = specialities[index2];
+    const greeting = greetings[index3];
     const message = `
     こんにちは、私の名前は${name}です。
     最近はまっているのは${interest}で、
