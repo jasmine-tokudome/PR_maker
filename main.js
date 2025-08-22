@@ -1,6 +1,6 @@
-const interests = ["ゲーム","アニメ","プログラミング"]
-const specialities = ["寝ること","食べること","運動すること"]
-const greetings = ["よろしくね","お手柔らかに","押忍！"]
+const interests = ["明るい","優しい","力強い","魅力的な","前向きな"]
+const specialities = ["笑顔","努力","思いやり","言葉","センス"]
+const greetings = ["幸せ","安心","元気","勇気","笑顔"]
 const button = document.querySelector("#button");
 button.addEventListener("click", function(){
     const name = document.querySelector("#name").value;
@@ -10,10 +10,10 @@ button.addEventListener("click", function(){
     const interest = interests[index1];
     const speciality = specialities[index2];
     const greeting = greetings[index3];
-    const message = `こんにちは、私の名前は${name}です。
-    最近はまっているのは${interest}で、
-    特技は${speciality}です。
-    ${greeting}`;
+    const message = `{name}さんは、
+    本当に {A} な人で、
+    {B} によって周りを {C} にしています。
+    `;
     const output = document.querySelector("#output");
     output.textContent = message;
 });
